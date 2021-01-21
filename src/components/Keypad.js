@@ -2,7 +2,7 @@
 const Keybad = () => {
   return(
     <div>
-      <input type = "text"/>
+      <input type = "text" onKeyUp = {() => console.log('Entering password...')}/>
     </div>
   )
 }
